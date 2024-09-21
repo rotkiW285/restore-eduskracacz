@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "Restore EduSkracacz",
+    "version": "1.0",
+    "description": "Przywraca możliwość korzystania z EduSkracacza.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "kontakt@czyvulcanapojebalo.pl",
+        "strict_min_version": "128.0"
+      },
+      "gecko_android": {
+        "id": "kontakt@czyvulcanapojebalo.pl",
+        "strict_min_version": "128.0"
+      }
+    },
+    "host_permissions": [
+      "*://*.eduvulcan.pl/dziennik/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.eduvulcan.pl/dziennik/*"],
+        "js": ["contentScript.js"]
+      }
+    ]
+  }
+  
