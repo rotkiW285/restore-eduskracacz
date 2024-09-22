@@ -23,10 +23,13 @@
     ],
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "icon.png"
+      "default_icon": "assets/logo/512.png"
     },
     "icons": {
-      "48": "icon.png"
+      "48": "assets/logo/48.png",
+      "128": "assets/logo/128.png",
+      "192": "assets/logo/192.png",
+      "512": "assets/logo/512.png"
     },
     "content_scripts": [
       {
