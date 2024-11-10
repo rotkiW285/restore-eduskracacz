@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Restore EduSkracacz",
-    "version": "1.0",
+    "version": "1.2",
     "description": "Przywraca możliwość korzystania z EduSkracacza.",
     "permissions": [
       "activeTab",
@@ -10,11 +10,11 @@
     ],
     "browser_specific_settings": {
       "gecko": {
-        "id": "kontakt@czyvulcanapojebalo.pl",
+        "id": "{8f2b9c57-3e18-47b7-9503-aae05f143690}",
         "strict_min_version": "128.0"
       },
       "gecko_android": {
-        "id": "kontakt@czyvulcanapojebalo.pl",
+        "id": "{8f2b9c57-3e18-47b7-9503-aae05f143690}",
         "strict_min_version": "128.0"
       }
     },
