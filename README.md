@@ -3,7 +3,8 @@
 
 
 ## Installation
-<a href="https://addons.mozilla.org/pl/firefox/addon/restore-eduskracacz285/"><img src="./assets/add to firefox.svg"></a><br>
+<a href="https://addons.mozilla.org/pl/firefox/addon/restore-eduskracacz285/"><img src="./assets/add_to_firefox.svg"></a>
+<a href="https://chromewebstore.google.com/detail/restore-eduskracacz/mpjaamhmkedhleogdkjlcnnjbgonjign"><img src="./assets/add_to_chrome.svg"></a><br>
 [Development installation instructions](https://es.cvp.ovh/restoreduskracacz.html)
 
 ## Development Workflow
